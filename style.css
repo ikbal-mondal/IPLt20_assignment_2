@@ -261,10 +261,10 @@ blog_gallery end
 
     .side_menu {
         display: flex;
-        height: auto;
-        background-color: aliceblue;
-        width: 406px;
-        flex-direction: column;
+        background-color: #f5faff;
+        padding: 0px;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     #side_anchor {
