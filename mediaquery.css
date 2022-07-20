@@ -1,0 +1,306 @@
+/* ---------
+ media_query phones small devices 
+-------------------*/
+/* banner section start */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .banner_items {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    .banner_image>img {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .banner_title {
+        font-size: 26px;
+        line-height: normal;
+        margin-top: -32px;
+    }
+
+    .banner_peragraph {
+        font-size: 8px;
+    }
+
+    #banner_btn {
+        padding: 14px 45px;
+        margin-top: 30px;
+        background: #f1360b;
+        border-radius: 7px;
+        border: none;
+        position: relative;
+        left: 10px;
+    }
+}
+
+/* banner section end */
+
+/* side menu start */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    #side_menu_gallery_wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .side_menu {
+        display: flex;
+        height: auto;
+        background-color: aliceblue;
+        width: 406px;
+        flex-direction: column;
+    }
+
+    #side_anchor {
+        text-decoration: none;
+        background: #ededed;
+        padding: 10px 16px;
+        display: block;
+        border-radius: 10px;
+        color: black;
+    }
+}
+
+/*  side menu  end */
+
+/* blog_item start */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .blog_item {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .view_btn {
+        display: nome;
+    }
+}
+
+/* blog_item end   */
+
+/* footer start */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    #footer_ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer_anchor {
+        text-decoration: none;
+        margin: 5px 18px;
+        color: white;
+        margin-bottom: 30px;
+        display: block;
+    }
+}
+
+/* footer end  */
+
+/* Medium devices (landscape tablets, max 768px and up ) */
+
+/* banner start */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .banner_items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+
+    .banner_image>img {
+        width: 100%;
+    }
+
+    .banner_title {
+        font-size: 36px;
+        line-height: normal;
+    }
+
+    .banner_peragraph {
+        font-size: 10px;
+    }
+
+    #banner_btn {
+        padding: 14px 45px;
+        margin-top: 30px;
+        background: #f1360b;
+        border-radius: 7px;
+        border: none;
+        position: relative;
+        left: 10px;
+    }
+}
+
+/* banner end */
+
+/* side menu start */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    #side_menu_gallery_wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .side_menu {
+        display: flex;
+        height: auto;
+        background-color: aliceblue;
+        width: 406px;
+        flex-direction: row;
+    }
+
+    #side_anchor {
+        text-decoration: none;
+        background: #ededed;
+        padding: 10px 16px;
+        display: block;
+        border-radius: 10px;
+        color: black;
+    }
+}
+
+/*  side menu  end */
+
+/* blog_item start */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .blog_item {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .view_btn {
+        display: block;
+    }
+}
+
+/* blog_item end  *
+
+
+/* footer start */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    #footer_ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer_anchor {
+        text-decoration: none;
+        margin: 5px 18px;
+        color: white;
+        margin-bottom: 30px;
+        display: block;
+    }
+}
+
+/* footer end  */
+
+/* Large devices (laptops/desktops, 1024px and up start) */
+
+/* banner start */
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .banner_items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+
+    .banner_image>img {
+        width: 100%;
+    }
+}
+
+/* banner end */
+
+/* side menu start */
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #side_menu_gallery_wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .side_menu {
+        display: flex;
+        height: auto;
+        background-color: aliceblue;
+        width: 406px;
+        flex-direction: row;
+    }
+
+    #side_anchor {
+        text-decoration: none;
+        background: #ededed;
+        padding: 10px 16px;
+        display: block;
+        border-radius: 10px;
+        color: black;
+    }
+}
+
+/* side menu  end  */
+
+/* blog_item start */
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .blog_item {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .blog_peragraph {
+        font-size: 11px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .view_btn {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+/* blog_item end  *
+
+
+
+
+/* footer start */
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #footer_ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer_anchor {
+        text-decoration: none;
+        margin: 5px 18px;
+        color: white;
+        margin-bottom: 30px;
+        display: block;
+    }
+}
+
+/* ----------------------------------------------------- */
+
+/* Large devices (laptops/desktops, 1024px and up end) */
