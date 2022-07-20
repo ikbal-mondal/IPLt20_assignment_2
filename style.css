@@ -46,10 +46,8 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     color: white;
-    align-items: center;
-    justify-items: center;
+    justify-items: end;
     padding: 41px;
-
 }
 
 
@@ -64,12 +62,14 @@ body {
 }
 
 #banner_btn {
-    padding: 10px 40px;
+    padding: 17px 50px;
     margin-top: 30px;
     background: #f1360b;
     border-radius: 7px;
+    border: none;
+    position: relative;
+    left: 10px;
 }
-
 /* -------------
 header banner end
 ----------------- */
@@ -86,8 +86,8 @@ header banner end
 }
 
 #side_menu_gallery_wrapper {
-
     display: flex;
+    justify-content: space-around;
 }
 
 .blog_item {
@@ -111,6 +111,14 @@ header banner end
 .blog_chat {
     margin-left: 30px;
 }
+
+
+.match_handle {
+    grid-column-gap: 50px;
+    grid-row-gap: 60px;
+}
+
+
 
 
 
@@ -224,7 +232,7 @@ blog_gallery end
 
 /* banner start */
  
-@media only screen and   (min-width: 320px) and  (max-width: 480px) {
+@media only screen and   (min-width: 320px) and  (max-width: 480px) and (max-width:600px) {
     
     .banner_items {
         display: grid;
@@ -232,10 +240,10 @@ blog_gallery end
         justify-content: center;
     }
 
-    .banner_contain {
+     .banner_contain {
         margin-bottom: 21px;
         text-align: center;
-    }
+    } 
 }
 
 
@@ -263,8 +271,8 @@ blog_gallery end
         display: flex;
         background-color: #f5faff;
         padding: 0px;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+       
     }
 
     #side_anchor {
@@ -284,7 +292,7 @@ blog_gallery end
 
 /* blog_item start */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 320px) and  (max-width: 480px) {
     
    .blog_item{
 
@@ -328,6 +336,10 @@ blog_gallery end
             margin-bottom: 30px;
             display: block;
         }
+        hr{
+
+            width: 100%;
+        }
 
 }
 
@@ -358,7 +370,20 @@ blog_gallery end
         justify-content: center;
     }
 
+    .banner_image> img{
+
+        width: 100%;
+    }
+
+     .banner_title{
+
+        font-size: 36px;
+     }
     
+     .banner_peragraph{
+
+        font-size: 10px;
+     }
 }
 
 /* banner end */
@@ -485,7 +510,10 @@ blog_gallery end
     }
 
 
-  
+    .banner_image> img{
+
+        width: 100%;
+    }
 
     
 } 
