@@ -174,6 +174,53 @@ blog_gallery end
 --------------*/
 
 
+
+
+
+/*--------------
+       footer start
+ ------------------------- */
+
+ .footer_item {
+   
+    background: black;
+    text-align: center;
+    padding: 50px;
+}
+.fotter_title {
+    color: wheat;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+#footer_ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 72px;
+}
+
+.footer_anchor {
+    text-decoration: none;
+    margin: 5px 18px;
+    color: white;
+    
+}
+
+
+
+/*--------------
+       footer end
+ ------------------------- */
+
+
+
+
+
+
+
+
+
+
 /* ---------
  media_query phones small devices start
 -------------------*/
@@ -255,12 +302,7 @@ blog_gallery end
 
    }
 
-   ul {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-    }
+  
 
 
 }
@@ -268,6 +310,33 @@ blog_gallery end
 
 /* blog_item end  */
 
+
+/* footer start */
+
+@media only screen and (max-width: 600px) {
+
+    #footer_ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    
+        }
+
+        .footer_anchor {
+            text-decoration: none;
+            margin: 5px 18px;
+            color: white;
+            margin-bottom: 30px;
+            display: block;
+        }
+
+}
+
+
+
+
+
+/* footer end  */
 /* ---------
  media_query phones small devices end
 -------------------*/
@@ -298,41 +367,3 @@ blog_gallery end
 
 
 
-
-
-/*--------------
-       footer start
- ------------------------- */
-
- .footer_item {
-    text-align: center;
-    background: rgb(16, 20, 50);
-    padding: 83px;
-}
-.fotter_title {
-    color: wheat;
-    margin-bottom: 30px;
-    font-size: 40px;
-}
-
-ul {
-    display: flex;
-    justify-content: center;
-}
-
-a.footer_anchor {
-    text-decoration: none;
-    margin: 5px 18px;
-    color: white;
-    
-}
-
-li._fotter_li {
-    margin-top: 38px;
-}
-
-
-
-/*--------------
-       footer end
- ------------------------- */
