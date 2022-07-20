@@ -33,6 +33,9 @@ body {
 --------------------------*/
 
 
+
+
+
 #banner {
 
     width: 90%;
@@ -46,20 +49,28 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     color: white;
+    padding: 73px;
+    align-items: center;
     justify-items: end;
-    padding: 41px;
 }
 
 
+
+.banner_image> img {
+
+    width: 100%;
+
+}
 
 .banner_title {
-    font-size: 60px;
-
+    font-size: 58px;
 }
 
-.banner_peragraph {
-    font-size: 16px;
-}
+.banner_peragraph { font-size: 16px;
+         margin-top: 18px; 
+        
+        
+        }
 
 #banner_btn {
     padding: 17px 50px;
@@ -95,7 +106,7 @@ header banner end
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 11px;
     grid-row-gap: 30px;
-
+    align-items: end;
 }
 
 .blog_transfer {
@@ -112,14 +123,44 @@ header banner end
     margin-left: 30px;
 }
 
+.blog> img{
 
+    width: 100%;
+}
+
+.blog{
+
+    width: 300px;
+}
+
+
+/* file2(upcoming match.html) */
 .match_handle {
     grid-column-gap: 50px;
     grid-row-gap: 60px;
 }
 
+/* file3(all group.html) start */
+.group_logo {
+    width: 100%;
+}
 
 
+.all_group_wrap {
+    text-align: center;
+    width: 300px;
+}
+
+.group_name {
+    font-size: 33px;
+}
+
+.group_stadium{
+
+    font-size: 16px;
+}
+
+/* file3(all group.html)end  */
 
 
 .side_menu {
@@ -378,6 +419,7 @@ blog_gallery end
      .banner_title{
 
         font-size: 36px;
+        line-height: normal;
      }
     
      .banner_peragraph{
